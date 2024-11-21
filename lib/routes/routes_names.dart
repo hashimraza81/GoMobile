@@ -10,4 +10,6 @@ class RoutesName {
   static const String studentModule = 'studentModule';
   static const String studentEvents = 'studentEvents';
   static const String studentTimeTable = 'studentTimeTable';
+  static const String studentBus = 'studentBus';
+  static const String studentAbsentNote = 'studentAbsentNote';
 }

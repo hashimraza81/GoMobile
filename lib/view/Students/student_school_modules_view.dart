@@ -218,15 +218,14 @@ void _handleGridItemTap(BuildContext context, String title) {
     // case 'OUR SCHOOL':
     //   Navigator.pushNamed(context, RoutesName.ourSchoolScreen);
     //   break;
-    // case 'SCHOOL BUS':
-    //   Navigator.pushNamed(context, RoutesName.schoolBusScreen);
+    case 'SCHOOL BUS':
+      Navigator.pushNamed(context, RoutesName.studentBus);
     //   break;
     // case 'MULTIMEDIA':
     //   Navigator.pushNamed(context, RoutesName.multimediaScreen);
     //   break;
-    // case 'ABSENT NOTE':
-    //   Navigator.pushNamed(context, RoutesName.absentNoteScreen);
-    //   break;
+    case 'ABSENT NOTE':
+      Navigator.pushNamed(context, RoutesName.studentAbsentNote);
     // case 'REPOSITORY':
     //   Navigator.pushNamed(context, RoutesName.repositoryScreen);
     //   break;

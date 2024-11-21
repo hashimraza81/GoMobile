@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gomobile/controller/days_provider.dart';
 import 'package:gomobile/controller/events_toggle_provider.dart';
 import 'package:gomobile/controller/message_toggle_provider.dart';
 import 'package:gomobile/controller/staff_toggle_provider.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => CalendarState()),
         ChangeNotifierProvider(create: (_) => EventsToggleProvider()),
         ChangeNotifierProvider(create: (_) => TimeTableToggleProvider()),
+        ChangeNotifierProvider(create: (_) => DaysProvider()),
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

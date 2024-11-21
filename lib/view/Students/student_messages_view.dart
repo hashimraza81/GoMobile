@@ -228,7 +228,7 @@ class StudentMessagesView extends StatelessWidget {
                                         ),
                                         child: Padding(
                                           padding: const EdgeInsets.symmetric(
-                                            vertical: 30.0,
+                                            vertical: 40.0,
                                             horizontal: 10,
                                           ),
                                           child: Column(
@@ -260,7 +260,7 @@ class StudentMessagesView extends StatelessWidget {
                                         ),
                                       ),
                                       Positioned(
-                                        top: 18,
+                                        top: 28,
                                         left:
                                             MediaQuery.of(context).size.width *
                                                 0.6,

@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gomobile/controller/time_table_toggle_provider.dart';
+import 'package:gomobile/utils/Uihelpers/classroom_tab.dart';
 import 'package:gomobile/utils/constants/app_colors.dart';
 import 'package:gomobile/utils/constants/app_images.dart';
 import 'package:gomobile/utils/constants/app_textstyle.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
+import '../../utils/Uihelpers/custom_toggle_botton.dart';
 import '../../utils/bottomBar/bottom_bar_student.dart';
-import '../../utils/listTiles/events_listTile.dart';
-import '../Staff/staff_login_view.dart';
+import '../../utils/listTiles/continous_assessment_listTile.dart';
 
 class StudentTimetableView extends StatelessWidget {
   const StudentTimetableView({super.key});
@@ -37,7 +38,7 @@ class StudentTimetableView extends StatelessWidget {
                 ),
               ),
               Positioned(
-                top: 135,
+                top: 125,
                 left: 15,
                 child: SvgPicture.asset(
                   AppImages.timetableIcon,
@@ -100,7 +101,6 @@ class StudentTimetableView extends StatelessWidget {
                         builder: (context, toggleProvider, child) {
                           return Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            // mainAxisSize: MainAxisSize.min,
                             children: [
                               ToggleButton(
                                 text: "CLASSROOM",
@@ -132,24 +132,22 @@ class StudentTimetableView extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(
-                      height: 10,
+                      height: 20,
                     ),
                     Expanded(
                       child: Consumer<TimeTableToggleProvider>(
                         builder: (context, toggleProvider, child) {
                           if (toggleProvider.selectedTab == "CLASSROOM") {
-                            return SingleChildScrollView(
-                              child: UpComingListTile(),
-                            );
+                            return const ClassroomTab();
                           } else if (toggleProvider.selectedTab ==
                               "CONTINUOS ASSESSMENT") {
                             return SingleChildScrollView(
-                              child: OnGoingListTile(),
+                              child: ContinousAssessmentListtile(),
                             );
                           } else if (toggleProvider.selectedTab ==
                               "EXAMINATION") {
                             return SingleChildScrollView(
-                              child: PastEventListTile(),
+                              child: ContinousAssessmentListtile(),
                             );
                           }
                           return const SizedBox.shrink();

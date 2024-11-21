@@ -104,4 +104,9 @@ class AppImages extends AssetImage {
   static const String backArrow = '$_iconPath/Back.svg';
   static const String eventsIcon = '$_iconPath/eventsIcon.svg';
   static const String timetableIcon = '$_iconPath/timetableIcon.svg';
+
+  static const String bus = '$_iconPath/bus.svg';
+  static const String walk = '$_iconPath/walk.svg';
+  static const String absent1 = '$_iconPath/absent1.svg';
+  static const String add = '$_iconPath/add.svg';
 }

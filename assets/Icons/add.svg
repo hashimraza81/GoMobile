@@ -1,0 +1,23 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36 9.72021V12.2287V24.7456C36 30.8208 31.0751 35.7456 25 35.7456H8.09322" stroke="#EB5757" stroke-width="3" stroke-linecap="round"/>
+<rect width="32.61" height="31.98" rx="8" fill="url(#paint0_linear_3552_102171)"/>
+<g filter="url(#filter0_d_3552_102171)">
+<path d="M19.4449 23.52V18.69H24.0949C24.3149 18.69 24.5049 18.61 24.6649 18.45C24.8249 18.29 24.9049 18.1 24.9049 17.88V14.61C24.9049 14.39 24.8249 14.2 24.6649 14.04C24.5049 13.88 24.3149 13.8 24.0949 13.8H19.4449V9.11999C19.4449 8.89999 19.3649 8.70999 19.2049 8.54999C19.0449 8.38999 18.8549 8.30999 18.6349 8.30999H14.9749C14.7549 8.30999 14.5649 8.38999 14.4049 8.54999C14.2449 8.70999 14.1649 8.89999 14.1649 9.11999V13.8H9.57493C9.35493 13.8 9.16493 13.88 9.00493 14.04C8.84493 14.2 8.76493 14.39 8.76493 14.61V17.88C8.76493 18.1 8.84493 18.29 9.00493 18.45C9.16493 18.61 9.35493 18.69 9.57493 18.69H14.1649V23.52C14.1649 23.74 14.2449 23.93 14.4049 24.09C14.5649 24.25 14.7549 24.33 14.9749 24.33H18.6349C18.8549 24.33 19.0449 24.25 19.2049 24.09C19.3649 23.93 19.4449 23.74 19.4449 23.52Z" fill="#FFE699"/>
+</g>
+<defs>
+<filter id="filter0_d_3552_102171" x="4.76489" y="6.31006" width="24.1401" height="24.02" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3552_102171"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3552_102171" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_3552_102171" x1="16.305" y1="0" x2="16.305" y2="31.98" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F2994A"/>
+<stop offset="1" stop-color="#EB5757"/>
+</linearGradient>
+</defs>
+</svg>

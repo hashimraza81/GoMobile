@@ -3,9 +3,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gomobile/routes/routes_names.dart';
 import 'package:gomobile/utils/constants/app_colors.dart';
 import 'package:gomobile/utils/constants/app_images.dart';
-import 'package:gomobile/utils/custom_text_field.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../../utils/Uihelpers/custom_text_field.dart';
 import '../../utils/constants/app_textstyle.dart';
 
 class StudentRegistrationView extends StatelessWidget {

@@ -53,7 +53,11 @@ final TextStyle rStyleBlack15600 = GoogleFonts.roboto(
   color: const Color(0xFF219653),
   fontWeight: FontWeight.w600,
 );
-
+final TextStyle rStyleBlack15500 = GoogleFonts.roboto(
+  fontSize: 15,
+  color: const Color(0xFF219653),
+  fontWeight: FontWeight.w500,
+);
 final TextStyle rStyleBlack12600 = GoogleFonts.roboto(
   fontSize: 12,
   color: const Color(0xFF219653),
@@ -100,4 +104,21 @@ final TextStyle rStyleBlack16700 = GoogleFonts.roboto(
   fontSize: 16,
   color: AppColors.student_theme_2,
   fontWeight: FontWeight.w700,
+);
+
+final TextStyle rStyleBlack10500 = GoogleFonts.roboto(
+  fontSize: 10,
+  color: const Color(0xFF219653),
+  fontWeight: FontWeight.w500,
+);
+
+final TextStyle rStyleBlack10400 = GoogleFonts.roboto(
+  fontSize: 10,
+  color: const Color(0xFF219653),
+  fontWeight: FontWeight.w400,
+);
+final TextStyle rStyleBlack13900 = GoogleFonts.roboto(
+  fontSize: 13,
+  color: const Color(0xFF219653),
+  fontWeight: FontWeight.w900,
 );

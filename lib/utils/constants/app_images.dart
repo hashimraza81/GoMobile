@@ -37,6 +37,15 @@ class AppImages extends AssetImage {
   static const String pDF = '$_assetsPath/PDF.png';
   static const String pPT = '$_assetsPath/PPT.png';
   static const String arrow1 = '$_assetsPath/2.png';
+
+  static const String schoolModule = '$_assetsPath/schoolModule.png';
+
+  static const String eventsHeader = '$_assetsPath/eventsHeader.png';
+
+  static const String pic1 = '$_assetsPath/pic1.png';
+  static const String pic2 = '$_assetsPath/pic2.png';
+  static const String pic3 = '$_assetsPath/pic3.png';
+
   // Icons Student
   static const String personStaff = '$_iconPath/personStaff.png';
   static const String lockStaff = '$_iconPath/lockStaff.png';
@@ -70,4 +79,29 @@ class AppImages extends AssetImage {
   static const String driver = '$_iconPath/driver.svg';
   static const String arrow3 = '$_iconPath/3.svg';
   static const String calender1 = '$_iconPath/Calendar1.svg';
+
+  static const String setting = '$_iconPath/setting.svg';
+
+  static const String events = '$_iconPath/Events.svg';
+  static const String ourSchool = '$_iconPath/Our School.svg';
+  static const String schoolBus = '$_iconPath/School Bus.svg';
+  static const String timetable = '$_iconPath/Timetable.svg';
+  static const String repo = '$_iconPath/repo.svg';
+  static const String studentProfile = '$_iconPath/STUDENT PROFILE.svg';
+  static const String multimedia = '$_iconPath/Multimedia.svg';
+  static const String absentNote = '$_iconPath/Absent Note.svg';
+  static const String support = '$_iconPath/support-01 1.svg';
+  static const String wallet = '$_iconPath/Wallet.svg';
+  static const String reportCard = '$_iconPath/Report Card.svg';
+  static const String parentLogoutButton =
+      '$_iconPath/Parent Logout Button.svg';
+  static const String medicChat = '$_iconPath/Medic Chat.svg';
+
+  static const String feesPayment = '$_iconPath/Fees Payment.svg';
+  static const String gsimslogo = '$_iconPath/gsims logo.svg';
+  static const String dailyComm = '$_iconPath/Daily Comm.svg';
+
+  static const String backArrow = '$_iconPath/Back.svg';
+  static const String eventsIcon = '$_iconPath/eventsIcon.svg';
+  static const String timetableIcon = '$_iconPath/timetableIcon.svg';
 }

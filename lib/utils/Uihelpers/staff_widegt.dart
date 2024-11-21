@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../controller/staff_toggle_provider.dart';
-import 'constants/app_colors.dart';
-import 'constants/app_textstyle.dart';
-import 'staffListview.dart';
+import '../../controller/staff_toggle_provider.dart';
+import '../constants/app_colors.dart';
+import '../constants/app_textstyle.dart';
+import '../listTiles/staffListview.dart';
 import 'staff_toggle_widget.dart';
 
 class OurStaffWidget extends StatelessWidget {

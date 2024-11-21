@@ -5,13 +5,13 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 import '../../controller/message_toggle_provider.dart';
-import '../../utils/announcement_ListTile.dart';
-import '../../utils/bottom_bar_student.dart';
-import '../../utils/classAttendace_widget.dart';
+import '../../utils/Uihelpers/classAttendace_widget.dart';
+import '../../utils/Uihelpers/school_attendance_widget.dart';
+import '../../utils/bottomBar/bottom_bar_student.dart';
 import '../../utils/constants/app_images.dart';
 import '../../utils/constants/app_textstyle.dart';
-import '../../utils/homework_listTile.dart';
-import '../../utils/school_attendance_widget.dart';
+import '../../utils/listTiles/announcement_ListTile.dart';
+import '../../utils/listTiles/homework_listTile.dart';
 
 class StudentMessagesView extends StatelessWidget {
   const StudentMessagesView({super.key});

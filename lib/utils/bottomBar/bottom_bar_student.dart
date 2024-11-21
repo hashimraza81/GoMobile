@@ -4,9 +4,9 @@ import 'package:gomobile/routes/routes_names.dart';
 import 'package:gomobile/utils/constants/app_images.dart';
 import 'package:provider/provider.dart';
 
-import '../controller/bottom_Nav_Provider.dart';
-import 'constants/app_colors.dart';
-import 'constants/app_textstyle.dart';
+import '../../controller/bottom_Nav_Provider.dart';
+import '../constants/app_colors.dart';
+import '../constants/app_textstyle.dart';
 
 class BottomBarStudent extends StatelessWidget {
   const BottomBarStudent({super.key});
@@ -19,7 +19,7 @@ class BottomBarStudent extends StatelessWidget {
         Navigator.pushNamed(context, RoutesName.studentMsg);
         break;
       case 1:
-        Navigator.pushNamed(context, RoutesName.studentHome);
+        Navigator.pushNamed(context, RoutesName.studentModule);
         break;
       case 2:
         Navigator.pushNamed(context, RoutesName.studentCalendar);

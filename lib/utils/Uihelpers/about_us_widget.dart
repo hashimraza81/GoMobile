@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'constants/app_colors.dart';
-import 'constants/app_images.dart';
-import 'constants/app_textstyle.dart';
+import '../constants/app_colors.dart';
+import '../constants/app_images.dart';
+import '../constants/app_textstyle.dart';
 
 class AboutUsWidget extends StatelessWidget {
   const AboutUsWidget({super.key});

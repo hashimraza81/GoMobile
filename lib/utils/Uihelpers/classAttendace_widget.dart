@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:gomobile/utils/class_attendance_listTile.dart';
 import 'package:gomobile/utils/constants/app_colors.dart';
 import 'package:gomobile/utils/constants/app_images.dart';
 import 'package:gomobile/utils/constants/app_textstyle.dart';
+
+import '../listTiles/class_attendance_listTile.dart';
 
 class ClassAttendanceWidget extends StatelessWidget {
   const ClassAttendanceWidget({super.key});

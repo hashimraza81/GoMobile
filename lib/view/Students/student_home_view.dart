@@ -3,11 +3,11 @@ import 'package:gomobile/utils/constants/app_colors.dart';
 import 'package:provider/provider.dart';
 
 import '../../controller/toggle_provider.dart';
-import '../../utils/about_us_widget.dart';
-import '../../utils/bottom_bar_student.dart';
+import '../../utils/Uihelpers/about_us_widget.dart';
+import '../../utils/Uihelpers/custom_toggle_botton.dart';
+import '../../utils/Uihelpers/staff_widegt.dart';
+import '../../utils/bottomBar/bottom_bar_student.dart';
 import '../../utils/constants/app_images.dart';
-import '../../utils/custom_toggle_botton.dart';
-import '../../utils/staff_widegt.dart';
 
 class StudentHomeView extends StatelessWidget {
   const StudentHomeView({super.key});
@@ -41,10 +41,12 @@ class StudentHomeView extends StatelessWidget {
                       child: Consumer<ToggleProvider>(
                         builder: (context, toggleProvider, child) {
                           return Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               ToggleButton(
                                 text: "ABOUT US",
+                                fontSize: 12,
                                 isActive:
                                     toggleProvider.selectedTab == "ABOUT US",
                                 ontap: () {
@@ -53,6 +55,7 @@ class StudentHomeView extends StatelessWidget {
                               ),
                               ToggleButton(
                                 text: "OUR STAFF",
+                                fontSize: 12,
                                 isActive:
                                     toggleProvider.selectedTab == "OUR STAFF",
                                 ontap: () {

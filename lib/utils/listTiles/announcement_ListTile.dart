@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gomobile/utils/constants/app_colors.dart';
+import 'package:gomobile/utils/constants/app_textstyle.dart';
 
-import 'constants/app_images.dart';
-import 'constants/app_textstyle.dart';
+import '../constants/app_images.dart';
 
 class Announcement {
   final String title;

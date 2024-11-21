@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-import '../controller/staff_toggle_provider.dart';
-import 'constants/app_colors.dart';
+import '../../controller/staff_toggle_provider.dart';
+import '../constants/app_colors.dart';
 
 class StaffToggleWidget extends StatelessWidget {
   const StaffToggleWidget({super.key});

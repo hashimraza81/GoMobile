@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'constants/app_colors.dart';
-import 'constants/app_images.dart';
-import 'constants/app_textstyle.dart';
-import 'school_attendance_listTile.dart';
+import '../constants/app_colors.dart';
+import '../constants/app_images.dart';
+import '../constants/app_textstyle.dart';
+import '../listTiles/school_attendance_listTile.dart';
 
 class SchoolAttendanceWidget extends StatelessWidget {
   const SchoolAttendanceWidget({super.key});

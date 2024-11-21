@@ -5,8 +5,8 @@ import 'package:gomobile/utils/constants/app_colors.dart';
 import 'package:gomobile/utils/constants/app_textstyle.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../../utils/Uihelpers/custom_text_field.dart';
 import '../../utils/constants/app_images.dart';
-import '../../utils/custom_text_field.dart';
 
 class StaffRegistrationView extends StatelessWidget {
   const StaffRegistrationView({super.key});
